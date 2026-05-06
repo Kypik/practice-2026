@@ -3,73 +3,67 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Журнал — АТП</title>
+  <title>Журнал</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
 <nav>
+  <div class="nav-header"><div class="nav-header-dot"></div><div class="nav-header-text">Московский Политех<br>2025–2026</div></div>
   <ul class="nav-links">
-    <li><a href="index.html">Главная</a></li>
-    <li><a href="about.html">О проекте</a></li>
-    <li><a href="team.html">Участники</a></li>
-    <li><a href="journal.html" class="active">Журнал</a></li>
-    <li><a href="resources.html">Ресурсы</a></li>
+    <li><a href="index.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>Главная</a></li>
+    <li><a href="about.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>О проекте</a></li>
+    <li><a href="team.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>Участники</a></li>
+    <li><a href="journal.html" class="active"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>Журнал</a></li>
+    <li><a href="resources.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>Ресурсы</a></li>
   </ul>
+  <div class="nav-footer">Проектная практика<br>2025–2026</div>
 </nav>
 
-<section class="hero" style="padding-bottom: 36px;">
-  <div class="hero-badge">Журнал прогресса</div>
-  <h1>Ход выполнения <span>проекта</span></h1>
-  <p>Новости и записи о прогрессе работы по проектной деятельности.</p>
-</section>
+<div class="page-wrap">
+  <section class="hero">
+    <div class="inner">
+      <div class="hero-badge">Журнал прогресса</div>
+      <h1>Ход выполнения <span>проекта</span></h1>
+      <p>Новости и записи о прогрессе работы по проектной деятельности.</p>
+    </div>
+  </section>
 
-<section class="section" style="padding-top: 0;">
-  <div class="journal-list">
-
-    <article class="journal-entry">
-      <div class="entry-date">27.04.2026 · Новое обновление</div>
-      <div class="entry-title">Уменьшение задержки, больше FPS и не только</div>
-      <div class="entry-body">
-        На наш гитхаб добавлено новое обновление сервиса. Был переработан интерфейс. Улучшено подключение камер и оптимизирована их работа. Смотреть обновление 👉 <a href="https://github.com/1NFERR/webrtc-mospolytech">GitHub</a> 
+  <div class="content-body">
+    <div class="inner">
+      <div class="section-label">Записи</div>
+      <div class="journal-list">
+        <article class="journal-entry">
+          <div class="entry-header">
+            <div class="entry-date">27.04.2026</div>
+            <div class="entry-tag">Новое обновление</div>
+          </div>
+          <div class="entry-title">Уменьшение задержки, больше FPS и не только</div>
+          <div class="entry-body">На наш гитхаб добавлено новое обновление сервиса. Был переработан интерфейс. Улучшено подключение камер и оптимизирована их работа. Смотреть обновление 👉 <a href="https://github.com/1NFERR/webrtc-mospolytech">GitHub</a></div>
+          <div class="entry-img"><img src="images/journal-1.jpg" alt="описание"></div>
+        </article>
+        <article class="journal-entry">
+          <div class="entry-header">
+            <div class="entry-date">30.03.2026</div>
+            <div class="entry-tag">Подключение камер</div>
+          </div>
+          <div class="entry-title">Одновременный вывод изображений с четырех камер</div>
+          <div class="entry-body">Спустя долгую и сложную работу удалось подключить и вывести изображения сразу со всех 4 камер прямо в интерфейс.</div>
+          <div class="entry-img"><img src="images/journal-2.jpg" alt="описание"></div>
+        </article>
+        <article class="journal-entry">
+          <div class="entry-header">
+            <div class="entry-date">23.03.2026</div>
+            <div class="entry-tag">Промежуточная аттестация</div>
+          </div>
+          <div class="entry-title">Пройдена промежуточная аттестация</div>
+          <div class="entry-body">Успешно пройдена промежуточная аттестация. Результаты которой помогут нам двигаться дальше.</div>
+          <div class="entry-img"><img src="images/journal-3.jpg" alt="описание"></div>
+        </article>
       </div>
-      <div class="photo-placeholder" style="margin-top: 14px;">
-        <div class="photo-placeholder-inner" style="padding: 24px;">
-          <img src="images/journal-1.jpg" alt="описание" style="width:100%; border-radius:8px; margin-top:12px;"></p></p>
-        </div>
-      </div>
-    </article>
-
-     <article class="journal-entry">
-      <div class="entry-date">30.03.2026 · Подключение камер</div>
-      <div class="entry-title">Одновременный вывод изображений с четырех камер</div>
-      <div class="entry-body">
-        Спустя долгую и сложную работу удалось подключить и вывести изображения сразу со всех 4 камер прямо в интерфейс.
-      </div>
-      <div class="photo-placeholder" style="margin-top: 14px;">
-        <div class="photo-placeholder-inner" style="padding: 24px;">
-          <img src="images/journal-2.jpg" alt="описание" style="width:100%; border-radius:8px; margin-top:12px;"></p></p>
-        </div>
-      </div>
-    </article>
-
-     <article class="journal-entry">
-      <div class="entry-date">23.03.2026 · Промежуточная аттестация</div>
-      <div class="entry-title">Пройдена промежуточная аттестация</div>
-      <div class="entry-body">
-        Успешно пройдена промежуточная аттестация. Результаты которой помогут нам двигаться дальше.
-      </div>
-      <div class="photo-placeholder" style="margin-top: 14px;">
-        <div class="photo-placeholder-inner" style="padding: 24px;">
-           <img src="images/journal-3.jpg" alt="описание" style="width:100%; border-radius:8px; margin-top:12px;"></p></p>
-        </div>
-      </div>
-    </article>
-
+    </div>
   </div>
-</section>
 
-<footer>Московский политехнический университет · 2026</footer>
-
+  <footer><div class="inner">Московский политехнический университет · 2026</div></footer>
+</div>
 </body>
 </html>
